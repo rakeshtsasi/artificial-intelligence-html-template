@@ -47,8 +47,10 @@
     <div class="container-fluid sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="text-white">AI<span class="text-dark">.</span>Tech</h1>
+                <a href="index.html" class="navbar-brand p-3">
+                    <!-- <h1 class="text-white">AI<span class="text-dark">.</span>Tech</h1> -->
+
+                    <img class="img-fluid" src="img/logo-ai.png" alt="">
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -60,7 +62,7 @@
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="service.html" class="nav-item nav-link">Services</a>
                         <a href="project.html" class="nav-item nav-link">Projects</a>
-                        <div class="nav-item dropdown">
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light mt-2">
                                 <a href="feature.html" class="dropdown-item">Features</a>
@@ -69,11 +71,11 @@
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
-                        </div>
+                        </div> -->
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
-                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                    <!-- <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
                 </div>
             </nav>
         </div>
@@ -82,7 +84,7 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+    <!-- <div class="container-fluid pt-5 bg-primary hero-header mb-5">
         <div class="container pt-5">
             <div class="row g-5 pt-5">
                 <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
@@ -98,8 +100,66 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Hero End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container pt-5">
+                        <div class="row g-5 pt-5">
+                            <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                                <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInDown">AI.Tech</div>
+                                <h1 class="display-4 text-white mb-4 animated slideInRight">Artificial Intelligence for Your Business</h1>
+                                <p class="text-white mb-4 animated slideInDown">Tempor rebum no at dolore lorem clita rebum rebum ipsum
+                                    rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit</p>
+                                <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInDown">Read More</a>
+                                <a href="" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInDown">Contact Us</a>
+                            </div>
+                            <div class="col-lg-6 align-self-end text-center text-lg-end">
+                                <img class="img-fluid" src="img/hero-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container pt-5">
+                        <div class="row g-5 pt-5">
+                            <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                                <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInDown">AI.Tech</div>
+                                <h1 class="display-4 text-white mb-4 animated slideInDown">Artificial Intelligence for Your Business</h1>
+                                <p class="text-white mb-4 animated slideInDown">Tempor rebum no at dolore lorem clita rebum rebum ipsum
+                                    rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit</p>
+                                <a href="about.html" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInDown">Read More</a>
+                                <a href="contact.html" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInDown">Contact Us</a>
+                            </div>
+                            <div class="col-lg-6 align-self-end text-center text-lg-end">
+                                <img class="img-fluid" src="img/feature.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    
+
+    
 
 
     <!-- Full Screen Search Start -->
@@ -129,17 +189,18 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid" src="img/about-img.jpg">
+                        <img class="img-fluid" src="img/about.jpg">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div>
                     <h1 class="mb-4">We Make Your Business Smarter with Artificial Intelligence</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor eirmod magna dolore erat amet</p>
-                    <p class="mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no
-                        labore lorem sit. Sanctus clita duo justo et tempor.</p>
+                    <p class="mb-4">In today's fast-paced, technology-driven world, businesses and 
+                        individuals alike are seeking innovative solutions to stay competitive and secure.
+                         As technology continues to evolve at an unprecedented rate, having the right partner to guide you through this
+                         digital transformation is more crucial than ever.</p>
+                    <p class="mb-4">At  First Hub, we specialize in providing a wide range 
+                        of services that harness the power of cutting-edge technologies. From Artificial Intelligence (AI) and the Internet of Things (IoT) to Cyber Security and Data Analysis, we are committed to delivering forward-thinking solutions tailored to meet the unique needs of your business.</p>
                     <div class="row g-3">
                         <div class="col-sm-6">
                             <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Award Winning</h6>
@@ -151,7 +212,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center mt-4">
-                        <a class="btn btn-primary rounded-pill px-4 me-3" href="">Read More</a>
+                        <a class="btn btn-primary rounded-pill px-4 me-3" href="about.html">Read More</a>
                         <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
@@ -295,20 +356,20 @@
     <!-- Feature End -->
 
 
-    <!-- Case Start -->
+    <!-- Services Start -->
     <div class="container-fluid bg-light py-5">
         <div class="container py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Case Study</div>
-                <h1 class="mb-4">Explore Our Recent AI Case Studies</h1>
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Services</div>
+                <h1 class="mb-4">Explore Our Services</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                     <div class="case-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/project-1.jpg" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Robotic Automation</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                        <img class="img-fluid" src="img/Robotics.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="services.html">
+                            <small>Artificial Intelligence (AI)   Consulting</small>
+                            <h5 class="lh-base text-white mb-3">At  First Hub, we provide expert AI consultancy designed to help businesses unlock the full potential of artificial intelligence.
                             </h5>
                             <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
                         </a>
@@ -316,10 +377,10 @@
                 </div>
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                     <div class="case-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/project-2.jpg" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Machine learning</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                        <img class="img-fluid" src="img/Robotics.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="services.html">
+                            <small>Internet of Things (IoT)   Consulting</small>
+                            <h5 class="lh-base text-white mb-3">At First Hub, we provide comprehensive IoT consultancy services to help businesses harness the power of connected devices
                             </h5>
                             <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
                         </a>
@@ -327,23 +388,70 @@
                 </div>
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
                     <div class="case-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/project-3.jpg" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Predictive Analysis</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                        <img class="img-fluid" src="img/Robotics.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="services.html">
+                            <small>Robotics</small>
+                            <h5 class="lh-base text-white mb-3">At First Hub, we offer expert robotics consultancy services aimed at helping businesses integrate intelligent automation into their operations
                             </h5>
                             <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
                         </a>
                     </div>
                 </div>
             </div>
+
+            <div class="row  g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+               
+               
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/Robotics.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="services.html">
+                            <small>Machine Learning and Deep Learning</small>
+                            <h5 class="lh-base text-white mb-3">At  First Hub, we offer specialized consultancy in Machine Learning and Deep Learning to help 
+                                businesses harness the power of AI-driven technologies
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/Robotics.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="services.html">
+                            <small>Data Analytics Consulting</small>
+                            <h5 class="lh-base text-white mb-3">At  First Hub, we specialize in data analysis consultancy to 
+                                help businesses transform raw data into actionable insights. 
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+               
+               
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/Robotics.png" alt="">
+                        <a class="case-overlay text-decoration-none" href="services.html">
+                            <small>Comprehensive educational solutions consultancy</small>
+                            <h5 class="lh-base text-white mb-3">At  First Hub, we provide comprehensive educational solutions consultancy designed to empower individuals and organizations
+                                 with cutting-edge knowledge and skills
+                            </h5>
+                            <span class="btn btn-square btn-primary">
+                                
+                                <i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         </div>
     </div>
     <!-- Case End -->
 
 
     <!-- FAQs Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
                 <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Popular FAQs</div>
@@ -472,7 +580,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- FAQs Start -->
 
 
